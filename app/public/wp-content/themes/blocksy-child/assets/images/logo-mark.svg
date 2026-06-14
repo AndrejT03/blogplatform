@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Aperture">
+  <defs>
+    <linearGradient id="ap-mark-ring" x1="11" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7af2"/>
+      <stop offset=".52" stop-color="#cf65ff"/>
+      <stop offset="1" stop-color="#7d6cff"/>
+    </linearGradient>
+    <linearGradient id="ap-mark-core" x1="24" y1="22" x2="40" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5e9ff"/>
+    </linearGradient>
+    <filter id="ap-mark-shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#cf65ff" flood-opacity=".26"/>
+    </filter>
+  </defs>
+  <circle cx="32" cy="32" r="22" fill="url(#ap-mark-ring)" filter="url(#ap-mark-shadow)"/>
+  <circle cx="32" cy="32" r="14.5" fill="#fff"/>
+  <circle cx="32" cy="32" r="7" fill="url(#ap-mark-ring)"/>
+  <circle cx="32" cy="32" r="3.2" fill="url(#ap-mark-core)"/>
+</svg>
